@@ -11,6 +11,7 @@ body
     background-size: fixed;
     background-position:center;
     font-family: sans-serif;
+    border-style: solid;
 }
 .menu
 {
