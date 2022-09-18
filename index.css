@@ -1,0 +1,64 @@
+*
+{
+    padding: 30px 60px;
+    margin: 0;
+    box-sizing:border-box;
+
+}
+body
+{
+    background-image: url(background.jpg);
+    background-size: fixed;
+    background-position:center;
+    font-family: sans-serif;
+}
+.menu
+{
+    background: #FDB0B9;
+    text-align: center;
+}
+.menu ul{
+    display: inline-flex;
+    list-style:none;
+    color: #fff;
+}
+.menu ul li
+{
+  padding: 20px 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu ul li:hover
+{
+    background: #000000;
+    border-radius: 3px  ;
+}
+.Features{
+    background-color: #50CBF9;
+    text-align: center;
+
+}
+.Features ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.Features ul li{
+    padding: 60px 60px;
+    font-size: large;
+}
+.Features ul li a {
+    text-decoration: none;
+
+}
+.contact{
+    background-color: #54F2C4;
+    text-align: center;
+}
+.contact ul{
+    display: inline-table;
+    list-style: none;
+    color:#fff;
+}
