@@ -1,0 +1,94 @@
+body
+{
+    background-color: #A6D8D7;
+}
+
+p {
+    background-color: red;
+    font-size: 12px;
+    margin: 10px 30px 40px 10px;
+    padding: 10px 20px 10px;
+}
+.img {
+    float: leftt;
+    vertical-align: middle;
+}
+.button{
+left: 173px;
+position: relative;
+margin-top: 39px;    
+}
+
+.features .topic{
+    background-color: #A6D8D7;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 15px ;
+}
+.features .container .row . For acne and scars{
+    margin-left: 110px ;
+}
+.features .container .row . Body care{
+    margin-left: 110px ;
+}
+.features .container .row . Sale products{
+    margin-left: 110px ;
+}
+.container .row .button1{
+    margin-left: 70px;
+    margin-top: 15px;
+}
+.container .row .button2{
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.container .row .button3{
+    margin-left: 90px;
+    margin-top: 15px;
+}
+
+/* .features .container .row .button2{
+    margin-left: 110px ;
+    margin-top: 15px;
+}
+.features .container .row .button3{
+    margin-left: 150px ;
+    margin-top: 15px;
+} */
+.img{
+    margin-top: 15px;
+    margin: left 15 px;
+}
+.footer{
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 30px;
+    text-align: center;
+}
+.contact{
+    text-align: center;
+    margin-top: 15px;
+}
+.contact .topic{
+    font-size: 30px;
+    padding-top: 15px;
+}
+.nav{
+    height: 500px;
+}
+.features{
+    background-color: #A6D8D7;
+    height: 300px;
+} 
+.contact{
+    background-color: #A6D8D7;
+    height: 250px;
+    width: 1200px;
+}
+.footer{
+    background-color: 
+    height: 300px;
+}
+.skin{
+    background-color: #A6D8D7;
+}
