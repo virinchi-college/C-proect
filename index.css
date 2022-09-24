@@ -1,0 +1,106 @@
+*{
+	padding: 0px;
+    margin: 0px;
+}
+:root{
+    --primary-color: white;
+    --secondary-color: black;
+}
+.dark-theme{
+    --primary-color: black;
+    --secondary-color: white;
+}
+#main{
+    background-color: var(--primary-color);
+}
+#icon{
+    width: 30px;
+    cursor: pointer;
+    margin: 4px;
+}
+.cname{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+.cname a{
+    color: rgb(52, 52, 163);
+    font-size: 30px;
+    text-decoration: none !important;
+    text-transform: capitalize;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+#card{
+    height: 350px;
+    width: 380px;
+    padding: 20px 35px;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    margin: 0px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 0px solid var(--secondary-color) !important;
+}
+#card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: var(--secondary-color);
+}
+h1{
+    color: var(--secondary-color);
+}
+h5{
+    color: var(--secondary-color);
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: var(--secondary-color);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.col-lg-4{
+    text-align: center;
+}
+label{
+    color: var(--secondary-color);
+}
+#floatingTextarea2{
+    background: var(--primary-color);
+}
+#exampleInputEmail1{
+    background: var(--primary-color);
+}
+#validationCustom02{
+    background: var(--primary-color);
+}
+#validationCustom01{
+    background: var(--primary-color);
+}
+.form-control{
+    color: var(--primary-color);
+}
+span{
+    position: absolute;
+    font-size: 14px;
+    color: red;
+}
+span i{
+    color: seagreen;
+}
