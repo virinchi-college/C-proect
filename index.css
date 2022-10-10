@@ -93,8 +93,17 @@ label{
 #validationCustom01{
     background: var(--primary-color);
 }
-.form-control{
-    color: var(--primary-color);
+#validationCustom01{
+    color: var(--secondary-color);
+}
+#validationCustom02{
+    color: var(--secondary-color);
+}
+#exampleInputEmail1{
+    color: var(--secondary-color);
+}
+#floatingTextarea2{
+    color: var(--secondary-color);
 }
 span{
     position: absolute;
@@ -103,4 +112,69 @@ span{
 }
 span i{
     color: seagreen;
+}
+#demo{
+    color: var(--secondary-color);
+}
+#box{
+    background-color: rgb(52, 52, 163);
+    font-family: 'Roboto', sans-serif;
+}
+#box .signup-box{
+    width: 340px;
+    height: 550px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 3px;
+}
+#box h1{
+    text-align: center;
+    padding-top: 15px;
+    margin: 10px;
+    color: rgb(52, 52, 163);
+}
+#box form{
+    width: 300px;
+    margin-left: 20px;
+}
+#box form label{
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+#box form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+#box button{
+    margin-top: 20px;
+    margin-left: 110px;
+}
+#box p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+#box .para-2{
+    text-align: center;
+    color: white;
+    margin-top: -10px;
+    font-size: 15px;
+}
+#box .para-2 a{
+    color: cyan;
+}
+#box .login-box{
+    width: 340px;
+    height: 320px;
+    margin: auto;
+    margin-top: 150px;
+    background-color: white;
+    border-radius: 3px;
 }
